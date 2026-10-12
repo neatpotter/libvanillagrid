@@ -1,0 +1,12 @@
+name: Run Tests
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  validate-step:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check status
+        run: echo "ready"
